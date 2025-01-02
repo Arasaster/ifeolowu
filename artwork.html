@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQSKVCK7ZC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MQSKVCK7ZC');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="media/bio.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ife Olowu - Artwork</title>
+</head>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.gal {
+    position: relative;
+    background: #000000;
+}
+.slide-1 {
+    background: url('../media/img/1.jpg');
+}
+.slide-2 {
+    background: url('../media/img/10.jpg');
+}
+.slide-3 {
+    background: url('../media/img/12.jpg');
+}
+.slide-4 {
+    background: url('../media/img/15.jpg');
+}
+.slide-5 {
+    background: url('../media/img/8.jpg');
+}
+.slide-6 {
+    background: url('../media/img/14.jpg');
+}
+.slide-7 {
+    background: url('../media/img/more.jpg');
+}
+
+.slide {
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+}
+.caption {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 40px 0px;
+}
+.caption h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    padding: 18px;
+}
+.caption p {
+    max-width: 600px;
+    width: 90%;
+    margin: 0px auto;
+    color: #d3d3d3;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 100;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    transform: background 500ms;
+}
+.arrow img {
+    width: 50px;
+}
+.arrow:hover {
+    background: rgba(0, 0, 0, .4);
+}
+.l {
+    left: 0;
+}
+.r {
+    right: 0;
+}
+</style>
+<body>
+    <header>
+        <a href="#" class="brand">IFE OLOWU</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="index.html#wlc">Home</a>
+                <a href="bio.html">Biography</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="artwork.html">Artwork</a>
+                <a href="exh-pub.html">Exhibitions/Publications</a>
+                <a href="http://paystack.shop/coloured-reality-art/">Prints</a>
+                <a href="https://linktr.ee/Ifeolowu">Contact</a>
+            </div>
+        </div>
+    </header>
+<body>
+    <div class="gal">
+        <div class="arrow l" onclick="prev()">
+            <img src="media/img/l.png" alt="l">
+        </div>
+        <div class="slide slide-1">
+             <div class="caption">
+                 <h3>Vintage Elegance II</h3>
+                 <p>Medium: oil and acrylic on canvas <br> Size: 36 by 48 inches <br>Year: 2023<br> Price: &#8358; 8,000,000</p>
+             </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="caption">
+                <h3>Awaiting</h3>
+                <p>Medium: oil and acrylic on canvas <br> Size: 24 by 30 inches <br>Year: 2023<br> Price: &#8358; 2,500,000</p>
+            </div>
+       </div>
+       <div class="slide slide-3">
+            <div class="caption">
+                <h3>Blossom</h3>
+                <p>Medium: oil and acrylic on canvas <br> Size: 24 by 36 inches <br>Year: 2023<br> Price: &#8358; 3,000,000</p>
+            </div>
+       </div>
+       <div class="slide slide-4">
+            <div class="caption">
+                <h3>Makoko</h3>
+                <p>Medium: oil on canvas <br> Size: 36 by 48 inches <br>Year: 2017<br> Price: &#8358; 8,500,000</p>
+            </div>
+        </div>
+        <div class="slide slide-5">
+            <div class="caption">
+                <h3>Olmara</h3>
+                <p>Medium: oil on canvas <br> Size: 36 by 48 inches <br>Year: 2017<br> Price: &#8358; 8,500,000</p>
+            </div>
+        </div>
+        <div class="slide slide-6">
+            <div class="caption">
+                <h3>Love across miles</h3>
+                <p>Medium: oil and acrylic on canvas <br> Size: 24 by 30 inches <br>Year: 2023<br> Price: &#8358; 3,000,000</p>
+            </div>
+        </div>
+       <div class="slide slide-7">
+            <div class="caption">
+                <h3><a style="color: #ffffff; background: rgb(37, 146, 209); text-decoration: none; padding: 25px; border-radius: 30px;" href="http://paystack.shop/coloured-reality-art/">See more</a></h3>
+            <p></p>
+            </div>
+        </div>
+       <div class="arrow r" onclick="next()">
+            <img src="media/img/r.png" alt="r">
+        </div>
+    </div>
+
+    <script>
+        let slide = document.querySelectorAll('.slide');
+        var current = 0;
+
+        function cls(){
+            for(let i = 0; i < slide.length; i++){
+                  slide[i].style.display = 'none';
+            }
+        }
+
+        function next(){
+            cls();
+            if(current === slide.length-1) current = -1;
+            current++;
+
+            slide[current].style.display = 'block';
+            slide[current].style.opacity = 0.4;
+
+            var x = 0.4;
+            var intX = setInterval(function(){
+                x+=0.1;
+                slide[current].style.opacity = x;
+                if(x >= 1) {
+                    clearInterval(intX);
+                    x = 0.4;
+                }
+            }, 100);
+
+        }
+
+        function prev(){
+            cls();
+            if(current === 0) current = slide.length;
+            current--;
+
+            slide[current].style.display = 'block';
+            slide[current].style.opacity = 0.4;
+
+            var x = 0.4;
+            var intX = setInterval(function(){
+                x+=0.1;
+                slide[current].style.opacity = x;
+                if(x >= 1) {
+                    clearInterval(intX);
+                    x = 0.4;
+                }
+            }, 100);
+
+        }
+
+        function start(){
+            cls();
+            slide[current].style.display = 'block';
+        }
+        start();
+
+
+
+                //responsive
+                const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+
+        // //slider
+        // const btns = document.querySelectorAll(".nav-btn");
+        // const slides = document.querySelectorAll(".nav-btn");
+
+        
+
+        // var sliderNav = function(manual){
+        //     btns.forEach((btn) => {
+        //         btn.classList.remove("active")
+        //     });
+        //     btns[manual].classList.add("active")
+        // }
+
+        // btns.forEach((btn, i) => {
+        //     btns.addEventListener("click", () => {
+        //         sliderNav(i);
+        //     });
+        // });
+
+
+        
+    document.addEventListener('DOMContentLoaded', function () {
+        // Initialize Swiper
+        const swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        // Handle slider navigation clicks
+        const btns = document.querySelectorAll('.nav-btn');
+        const videos = document.querySelectorAll('.video-slide');
+
+        function sliderNav(manual) {
+            btns.forEach((btn) => {
+                btn.classList.remove('active');
+            });
+            btns[manual].classList.add('active');
+
+            // Pause all videos
+            videos.forEach((video) => {
+                video.pause();
+                video.currentTime = 0;
+            });
+
+            // Play the selected video
+            videos[manual].currentTime = 0; // Reset video to the beginning
+            videos[manual].play();
+        }
+
+        btns.forEach((btn, i) => {
+            btn.addEventListener('click', () => {
+                sliderNav(i);
+                swiper.slideTo(i); // Optional: Move the Swiper to the clicked slide
+            });
+        });
+    });
+    </script>
+</body>
+<footer>
+    <div class="n-letter">
+        <section>
+            <center><div class="line-v"></div></center>
+            <form name="Newsletter" method="POST" netlify>
+                <input name="Email" type="email" placeholder="Enter your email address" id="nlt" required><div class="sbib"></div>
+                <button type="submit">Subscribe</button>
+            </form>
+            <center><div class="credit">&copy; 2023 Ife Olowu. All rights Reserved<br/> Created by <a href="http://wa.me/+2349030920952/"><b>Excel Services</b></a></div></center>
+        </section>
+    </div>
+</footer>
